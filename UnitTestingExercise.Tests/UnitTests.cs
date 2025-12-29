@@ -37,8 +37,7 @@ namespace UnitTestingExercise.Tests
         {
             //Start Step 3 here:
 
-            //Arrange
-            
+            // Arrange
             // create a Calculator object
             var c = new Calculator();
 
