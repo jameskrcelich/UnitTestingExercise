@@ -7,28 +7,6 @@ namespace UnitTestingExercise.Tests
 {
     public class UnitTests
     {
-        public int Add(int num1, int num2, int num3)
-        {
-            return num1 + num2 + num3;
-        }
-        public int Subtract(int minuend, int subtrhend)
-        {
-            //throw  new NotImplementedException();
-            return minuend - subtrhend;
-        }
-
-        public int Multiply(int multiplicand, int multiplier)
-        {
-            //throw new NotImplementedException();
-            return multiplicand * multiplier;
-        }
-
-        public int Divide(int dividend, int divisor)
-        {
-            //throw new NotImplementedException();
-            return dividend / divisor;
-        }
-        
         [Theory]
         [InlineData(2, 3, 5, 10)] //Add test data <-------
         [InlineData(1, 2, 3, 6)] //Add test data <-------
